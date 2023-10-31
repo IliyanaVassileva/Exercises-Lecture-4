@@ -1,1 +1,130 @@
+public class Exercises {
+    public static void main(String[] args) {
+        exercise7();
 
+    }
+
+    private static void exercise1() {
+        String input = "second";
+        switch (input) {
+
+            case "first":
+                System.out.println("The first  day of the week is monday ");
+                break;
+            case "second":
+                System.out.println("The second day of the week is tuesday ");
+                break;
+            case "third":
+                System.out.println("The third  day of the week is wednesday ");
+                break;
+            case "fourth":
+                System.out.println("The fourth  day of the week is thursday ");
+                break;
+            case "fifth":
+                System.out.println("The fifth day of the week is friday ");
+                break;
+            case "sixth":
+                System.out.println("The sixth day of the week is saturday ");
+                break;
+            case "seventh":
+                System.out.println("The seventh  day of the week is sunday ");
+                break;
+            default:
+                System.out.println("Default ");
+        }
+    }
+
+    private static void exercise2() {
+        int num = 15;
+
+        if (num >= 16) {
+            System.out.println("You are eligible to work.");
+            if (num < 16) {
+                System.out.println("You are not eligible to work.");
+            }
+        }
+
+    }
+
+    private static void exercise3() {
+        double Price = 67.0;
+        int quantity = 120;
+
+
+        if (quantity > 100 && quantity <= 120) {
+            double discountRate = 0.15;
+            double discountedPrice = Price - (Price * discountRate);
+            double revenue = discountedPrice * quantity;
+            double discount = (Price * discountRate) * quantity;
+            System.out.println("Revenue:" + revenue);
+            System.out.println("Discount:" + discount);
+        } else if (quantity > 120) {
+            double discountRate = 0.20;
+            double discountedPrice = Price - (Price * discountRate);
+            double revenue = discountedPrice * quantity;
+            double discount = (Price * discountRate) * quantity;
+            System.out.println("Revenue:" + revenue);
+            System.out.println("Discount:" + discount);
+
+        } else {
+            System.out.println("Discount rate is 0");
+        }
+    }
+
+    private static void exercise4() {
+        int[] numbers = {45, 26, 99, 90, 40, 12, 84};
+        int largestNumber = numbers[0];
+
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] > largestNumber) {
+                largestNumber = numbers[i];
+            }
+        }
+        System.out.println("The largest number in the array is: " + largestNumber);
+    }
+
+    private static void exercise5() {
+        int budget = 322;
+        String vacation = "Mountain";
+
+        if (vacation.equals("Beach")) {
+            if (budget < 50.0) {
+                System.out.println("Bulgaria Beach vacation.");
+            } else {
+                System.out.println("Outside Bulgaria Beach vacation.");
+            }
+        } else if (vacation.equals("Mountain")) {
+            if (budget < 30.0) {
+                System.out.println("Bulgaria Mountain vacation.");
+            } else {
+                System.out.println("Outside Bulgaria Mountain vacation.");
+            }
+        } else {
+            System.out.println("There is no information available for this type of vacation.");
+        }
+    }
+  private static void Exercises6 () {
+            int[] list1 = {12, 15, 32, 42, 55, 75, 122, 132, 150, 180, 200};
+
+            for (int number : list1) {
+                if (number % 5 == 0) {
+                    System.out.println(number);
+                }
+
+                if (number > 150) {
+                    break;
+                }
+            }
+private static void Exercises7() {
+        int[] list1 = {10, 20, 30, 40, 50};
+        int[] reversedList = new int[list1.length];
+
+        for (int i = list1.length - 1; i >= 0; i--) {
+            reversedList[list1.length - i - 1] = list1[i];
+        }
+        for (int number : reversedList) {
+            System.out.println(number);
+        }
+    }
+        }
+}
