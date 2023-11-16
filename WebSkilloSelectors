@@ -1,0 +1,29 @@
+HomeIcon
+Full Xpath - /html/body/app-root/div[1]/app-header/header/nav/div/a/img
+Element - <img _ngcontent-tjh-c1="" alt="homeIcon" id="homeIcon" src="../../../assets/Iskillo-logo.png" tabindex="0">
+
+Navbar-Toggler
+Full Xpath - /html/body/app-root/div[1]/app-header/header/nav/div/button
+Element - <button _ngcontent-tjh-c1="" class="navbar-toggler" type="button"><span _ngcontent-tjh-c1="" class="navbar-toggler-icon"></span></button>
+
+Link Home Button
+Full Xpath - /html/body/app-root/div[1]/app-header/header/nav/div/div/ul[1]/li[1]/a
+Element - <a _ngcontent-tjh-c1="" class="nav-link" id="nav-link-home" href="/posts/all">Home</a>
+
+Link Login Button
+Full Xpath - /html/body/app-root/div[1]/app-header/header/nav/div/div/ul[1]/li[2]/a
+Element - <a _ngcontent-tjh-c1="" class="nav-link" id="nav-link-login" href="/users/login">Login</a>
+
+Sign in Form
+Full Xpath - /html/body/app-root/div[2]/app-login/div/div/form
+Element - <form _ngcontent-tjh-c8="" class="text-center border border-light form-container ng-pristine ng-invalid ng-touched" novalidate=""><p _ngcontent-tjh-c8="" class="h4 mb-4">Sign in</p><input _ngcontent-tjh-c8="" class="form-control mb-4 ng-pristine ng-invalid ng-touched" formcontrolname="usernameOrEmail" id="defaultLoginFormUsername" name="usernameOrEmail" placeholder="Username or email" type="text"><input _ngcontent-tjh-c8="" class="form-control mb-4 ng-untouched ng-pristine ng-invalid" formcontrolname="password" id="defaultLoginFormPassword" name="password" placeholder="Password" type="password"><div _ngcontent-tjh-c8="" class="remember-me"><input _ngcontent-tjh-c8="" class="remember-me-button ng-untouched ng-pristine ng-valid" formcontrolname="rememberMe" type="checkbox"><span _ngcontent-tjh-c8="">Remember me</span></div><button _ngcontent-tjh-c8="" block="true" class="my-4 btn btn-primary" id="sign-in-button" type="submit">Sign in</button><p _ngcontent-tjh-c8=""><span _ngcontent-tjh-c8="" class="color-black">Not a member? </span><a _ngcontent-tjh-c8="" href="/users/register">Register</a></p></form>\
+
+
+Register Form
+Full Xpath - /html/body/app-root/div[2]/app-register/div/div/form
+Element - <form _ngcontent-tjh-c9="" class="border border-light form-container ng-pristine ng-invalid ng-touched" novalidate=""><h4 _ngcontent-tjh-c9="" class="text-center mb-4">Sign up</h4><div _ngcontent-tjh-c9="" class="input-filed has-danger"><input _ngcontent-tjh-c9="" class="form-control ng-pristine ng-invalid is-invalid ng-touched" formcontrolname="username" name="username" placeholder="Username" type="text"><!----><span _ngcontent-tjh-c9="" class="invalid-feedback"> This field is required! </span><!----><!----></div><div _ngcontent-tjh-c9="" class="input-filed"><input _ngcontent-tjh-c9="" class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="email" placeholder="email" type="email"><!----><!----></div><div _ngcontent-tjh-c9="" class="input-filed"><input _ngcontent-tjh-c9="" class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="password" id="defaultRegisterFormPassword" name="password" placeholder="Password" type="password"><!----><!----><!----></div><div _ngcontent-tjh-c9="" class="input-filed"><input _ngcontent-tjh-c9="" class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="confirmPassword" id="defaultRegisterPhonePassword" name="verify-password" placeholder="Confirm Password" type="password"><!----></div><div _ngcontent-tjh-c9="" class="text-center"><button _ngcontent-tjh-c9="" block="true" class="btn btn-primary mt-4" color="info" id="sign-in-button" type="submit">Sign in</button></div></form>
+
+
+Username input
+Full Path - /html/body/app-root/div[2]/app-register/div/div/form/div[1]/input
+Element - <input _ngcontent-tjh-c9="" class="form-control ng-pristine ng-invalid is-invalid ng-touched" formcontrolname="username" name="username" placeholder="Username" type="text">
